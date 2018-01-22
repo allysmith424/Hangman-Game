@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css?family=Lato|Roboto" rel="stylesheet">
+	<title>Cities Hangman</title>
+</head>
+<body>
+
+	<div class="container">
+
+		<header>
+
+			<h1>HANGMAN</h1>
+			<h2>cities of the world</h2>
+
+		</header>
+
+		<div id="game">
+
+			<p class="pressKeyToStart">
+				<span id="pressKeyToStart">Press any key to get started</span>
+			</p>
+			<div class="underscores">
+				<span class="place" id="correctPlace1">&nbsp;</span>
+				<span class="place" id="correctPlace2">&nbsp;</span>
+				<span class="place" id="correctPlace3">&nbsp;</span>
+				<span class="place" id="correctPlace4">&nbsp;</span>
+				<span class="place" id="correctPlace5">&nbsp;</span>
+				<span class="place" id="correctPlace6">&nbsp;</span>
+				<span class="place" id="correctPlace7">&nbsp;</span>
+				<span class="place" id="correctPlace8">&nbsp;</span>
+			</div>
+			<p class="guessesRemaining">
+				Number of guesses remining: <span id="guessesRemaining">10</span>
+			</p>
+			<p class="lettersGuessed">
+				Already guessed:
+				<br><br> 
+				<span id="lettersGuessed">&nbsp;</span>
+			</p>
+			<p class="wins">
+				Wins: <span id="wins">0</span>
+			</p>
+
+		</div>
+
+	</div>
+
+<script type="text/javascript" src="assets/game2.js"></script>
+
+</body>
+</html>

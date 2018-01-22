@@ -1,0 +1,93 @@
+body {
+	color: #757575;
+	line-height: 175%;
+	font-family: 'Lato', sans-serif;
+}
+
+.container {
+	width: 1000px;
+	margin: 0 auto;
+
+}
+
+header {
+	text-align: center;
+	line-height: 350%;
+	margin-bottom: 40px;
+	border-bottom: 0.5px solid #757575;
+	background: url("../images/cityHeader.jpg");
+	background-size: 400px 200px;
+}
+
+h1 {
+	color: #3c3839;
+	font-family: 'Roboto', sans-serif;
+	font-size: 50px;
+	letter-spacing: 50px;
+	padding: 20px 0 5px 0;
+}
+
+h2 {
+	color: #757575;
+	font-size: 25px;
+	padding: 10px 0;
+	letter-spacing: 5px;
+}
+
+#game {
+	width: 100%;
+	height: 400px;
+}
+
+.pressKeyToStart {
+	color: #ff3845;
+	text-align: center;
+	font-size: 30px;
+	clear: both;
+	width: 100%;
+}
+
+#pressKeyToStart {
+	color: #ff3845;
+	text-align: center;
+	font-size: 30px;
+	clear: both;
+	width: 100%;
+}
+
+.underscores {
+	text-align: center;
+	letter-spacing: 30px;
+	font-size: 60px;
+	clear: both;
+	display: block;
+	width: 100%;
+	margin-top: 100px;
+}
+
+.lettersGuessed {
+	text-align: center;
+	width: 100%;
+	clear: both;
+	margin-top: 80px;
+}
+
+#lettersGuessed {
+	font-size: 40px;
+}
+
+.guessesRemaining {
+	position: relative;
+	float: left;
+	clear: both;
+	top: 200px;
+	left: 50px;
+}
+
+.wins {
+	position: relative;
+	float: right;
+	clear: both;
+	top: 35px;
+	right: 50px;
+}
